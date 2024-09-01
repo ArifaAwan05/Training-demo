@@ -3,6 +3,9 @@ import Title from "./Title.jsx";
 import ProductTab from './productTab.jsx';
 import MsgBox from './MsgBox.jsx';
 import Form from './Form.jsx';
+import RefHook from './RefHook.jsx';
+import HookPractice from './HookPractice.jsx';
+import Memo from './Memo.jsx';
 
 
 function Description(){
@@ -11,8 +14,11 @@ function Description(){
 function App() {
   return (
     <>
-    <h1>Shopping Deal</h1>
-    <ProductTab/>
+    <Memo />
+    {/* <HookPractice/> */}
+    {/* <RefHook/> */}
+    {/* <h1>Shopping Deal</h1>
+    <ProductTab/> */}
     </>
   )
 }
